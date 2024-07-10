@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+          body {
+            background-color: white              
+        }
+
+      form {
+        width:  fit-content;
+        margin: 50px auto;
+      
+      }
+      form {
+        background-color:rgba(188, 143, 143, 0.532)
+      }
+
+      form fieldset {
+      }
+      input {
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid ;
+
+      }
+      textarea,
+      select {
+        margin-top: 5px;
+      }
+
+      .button -group{
+            text-align:center;
+        }
+        .button-group button{
+            background-color:rgba(81, 83, 156, 0.483) ;
+        }
+
+    </style>
+  </head>
+  <body>
+    <form action="" method="">
+      <fieldset>
+        <p><span style="color:rgba(52, 29, 226, 0.734);font-weight:bold"
+        <legend>Personal Information</legend>
+        <p><span style="color:rgb(215, 36, 194);font-weight:bold"
+
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name=""
+          id="name"
+          required
+          minlength="3"
+          maxlength="20"
+        />
+        <br /><label for="name">Email id: </label>
+        <input type="text" name="" id="email" required />
+        <br /><label for="phone">Phone number: </label>
+        <input
+          type="tel"
+          name=""
+          id="phone"
+          required
+          minlength="10"
+          maxlength="10"
+        />
+        <br />
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" checked />
+        <br /><label for="dob">Date of Birth</label>
+        <input type="date" name="" id="dob" />
+        <br /><label for="city">City</label>
+        <select name="" id="city">
+          <option value="">Baroda</option>
+          <option value="" selected>Rajkot</option>
+          <option value="">Surat</option>
+          <option value="" disabled>Ahmedabad</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+
+        <p><span style="color:rgb(52, 27, 244);font-weight:bold"
+
+        <legend>Professional Information</legend>
+
+        <p><span style="color:rgb(191, 44, 144);font-weight:bold"
+
+        <label for="collage">Collage name: </label>
+        <input type="text" name="" id="collage" required />
+        <br /><label for="cgpa">CGPA: </label>
+        <input type="number" step=".01" name="" id="CGPA" required />
+        <br /><label for="exp">Experience</label>
+        <textarea name="" id="exp" required></textarea>
+        <br />
+        <label for="resume">Resume:</label>
+        <input type="file" name="" id="resume" required />
+      </fieldset>
+     
+
+      <div class="button-group">
+        <p style="text-align:center;"</p>
+        <button type="submit">Submit</button>
+        <button type="reset"class="reset">Reset</button>
+    </div>
+
+    </form>
+  </body>
+</html>

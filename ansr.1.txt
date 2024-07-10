@@ -1,0 +1,28 @@
+1. Define the terms:
+    Website :
+=> a group of World Wide Web pages usually containing 
+   links to each other and made available online by  
+   an individual, company, or organization.
+
+    Webpage :
+    A web page or webpage is a document commonly written 
+    in HTML Hypertext Markup Language that is accessible 
+    through the Internet or other networks using an Internet browser.
+    and can contain a variety of content such as text,images , 
+    videos,links,and interactive elements.
+
+    WebBrowser :
+    A web browser is an application for accessing websites.
+    When a user requests a web page from a particular website, 
+    the browser retrieves its files from a web server and then
+    displays the page on the user's screen.
+
+    Webserver :
+    A web server is a computer system combined with software 
+    used for the storing and serving of website files.
+  
+    HTML,CSS :
+    HTML defines the content and the structure of a webpage, 
+    whereas CSS translates the display and the design of the HTML
+    elements. As a result, an HTML can incorporate CSS code in its 
+    files, but CSS cannot contain HTML in its sheets.
